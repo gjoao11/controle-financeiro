@@ -1,0 +1,57 @@
+.sectionTitle {
+  font-size: 1.125rem;
+}
+
+.transactionExtractContainer {
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentContainer {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.contentContainer table {
+  width: 100%;
+  border-spacing: 0 0.2rem;
+}
+
+.contentContainer table th {
+  text-align: left;
+  padding-bottom: 6px;
+}
+
+.contentContainer table th:last-child {
+  text-align: right;
+}
+
+.contentContainer table thead th {
+  border-bottom: 1px solid #979797;
+}
+
+.contentContainer table tbody td {
+  border-bottom: 1px solid #979797;
+  padding: 8px 0;
+}
+
+.contentContainer table tbody td span {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contentContainer table tfoot th {
+  border-top: 1px solid #979797;
+  padding-top: 12px;
+}
+
+.contentContainer > spam {
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+  font-size: 0.625rem;
+}
